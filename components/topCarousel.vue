@@ -276,7 +276,8 @@ export default {
   font-size: 18px;
   line-height: 25px;
   color: rgba(112, 100, 88, 0.9);
-  margin-bottom: 16px;
+  margin-bottom: 0px;
+  margin-top: 20px;
 }
 
 .item-title {
