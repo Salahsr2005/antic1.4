@@ -20,7 +20,15 @@ body {
 body, html {
   width: 100%;
   overflow-x: hidden;
+  overflow-y: scroll; /* Ensure vertical scrolling works */
   margin: 0;
   padding: 0;
   margin-inline: auto;
+  scrollbar-width: none; /* For Firefox */
 }
+
+/* Hide scrollbar for WebKit-based browsers (Chrome, Safari, Edge) */
+body::-webkit-scrollbar {
+  display: none; /* For WebKit browsers */
+}
+
