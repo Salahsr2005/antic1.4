@@ -1,0 +1,18 @@
+:root {
+  /* text variables */
+  --font-family: "Roboto", system-ui, sans-serif;
+  --font-weight--big-title: 800;
+  --font-size--big-title: 56px;
+  --line-height--big-title: 1.1;
+  --font-weight--title: 800;
+  --font-size--title: 30px;
+  --line-height--title: 1.1;
+
+  /* color variables */
+  /* spacing variables */
+  --max-width-lg-screen: 1440px;
+  --padding-body: clamp(20px, 5vw, 80px);
+  --spacing-md: 24px;
+  --spacing-lg: 32px;
+  --spacing-xl: 48px;
+}

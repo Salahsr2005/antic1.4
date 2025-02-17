@@ -1,0 +1,26 @@
+@import "./variables.css";
+html {
+  background-color: var(--color-background-global);
+  margin-top: 0rem;
+}
+
+body {
+  background-color: var(--color-background-body);
+  max-width: var(--max-width-lg-screen);
+  margin-inline: auto;
+  margin-top: -1rem;
+  margin-right: 0; /* Add this line to remove right margin specifically */
+}
+* {
+  margin: -2px;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  width: 100%;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  margin-inline: auto;
+}
