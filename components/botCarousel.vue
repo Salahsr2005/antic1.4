@@ -37,7 +37,7 @@
             <!-- Slide 3 -->
             <div class="carousel-item">
               <div class="image-container">
-                <img src="/assets/image4.svg" alt="Living room" />
+                <img src="/assets/image2.svg" alt="Living room" />
                
               </div>
             </div>
